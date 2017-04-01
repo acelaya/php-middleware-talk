@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+    php_middleware_talk_node:
+        container_name: php_middleware_talk_node
+        build:
+            context: .
+            dockerfile: Dockerfile
+        ports:
+            - "8000:8000"
+        volumes:
+            - ./:/home/alejandro
