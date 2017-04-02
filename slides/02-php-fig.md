@@ -4,7 +4,7 @@
 
 <br>
 
-Definen recomendaciones de estándar.
+Proponen recomendaciones de estándar.
 
 - **PSR-7** - HTTP Messages
 - **PSR-15** - Server middleware
