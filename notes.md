@@ -28,9 +28,9 @@ Explicar diferentes middlewares
 
 ### (07) Example middleware. Cache
 
-### (08) Example middleware. Routing
-
 ### (09) Example middleware. Authorization
+
+### (08) Example middleware. Routing
 
 ### (10) Middleware based frameworks
 
