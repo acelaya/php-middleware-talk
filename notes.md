@@ -25,3 +25,17 @@
 ### (06) Arquitectura middleware
 
 Explicar diferentes middlewares
+
+### (07) Example middleware. Cache
+
+### (08) Example middleware. Routing
+
+### (09) Example middleware. Authorization
+
+### (10) Middleware based frameworks
+
+### (11) Links
+
+- Link a artículo "scalability with zend expressive"
+
+### (12) Questions

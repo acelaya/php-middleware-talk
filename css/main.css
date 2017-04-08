@@ -10,9 +10,16 @@
 }
 
 .reveal pre {
-    background: #333;
+    background: #282b2e;
     padding: 5px 10px;
+    width: auto;
 }
 .reveal pre code {
     font-size: 90%;
+    overflow: hidden;
+}
+
+.reveal .class-code pre code {
+    font-size: 70%;
+    line-height: 1.35;
 }
