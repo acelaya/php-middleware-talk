@@ -9,3 +9,4 @@
 - Spiral: https://spiral-framework.com/guide
 - Middleman: https://github.com/mindplay-dk/middleman
 - PSR-7 middleware: https://github.com/oscarotero/psr7-middlewares
+- PSR-15 middleware: https://github.com/middlewares/awesome-psr15-middlewares
