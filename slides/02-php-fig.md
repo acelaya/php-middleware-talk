@@ -1,4 +1,4 @@
-#### PHP Framework Interop Group
+### PHP Framework Interop Group
 
 [*PHP-FIG*](http://www.php-fig.org/)
 
