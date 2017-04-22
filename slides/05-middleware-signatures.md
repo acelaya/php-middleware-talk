@@ -12,10 +12,10 @@ public function __invoke(
 ): Response;
 ```
 
-<br>
-
 Single pass: Request (**PSR-15**)
 
 ```php
 public function process(Request $reqest, Delegate $next): Response;
 ```
+
+El response debería modificarse sólo en el camino de salida.
