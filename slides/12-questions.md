@@ -1,3 +1,3 @@
 ### ¿Preguntas?
 
-![Question mark](/img/question.png)
+![Question mark](img/question.png)
