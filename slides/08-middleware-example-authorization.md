@@ -11,12 +11,12 @@ public AuthorizationMiddleware implements MiddlewareInterface
         $resource = $route->getRouteName();
         $role = $this->determineCurrentUserRole();
 
-        // If the ACL does not have the resource, the access is allowed by default
+        // If the role is allowed to access the resource, process next middleware
         if ($this->acl->isAllowed($role, $resource)) {
             return $delegate->process($request);
         }
 
-        // If none of the roles is allowed to access the resource, return a forbidden response
+        // If the role is not allowed to access the resource, return a forbidden response
         return (new Response())->withStatus(403);
     }
 }
